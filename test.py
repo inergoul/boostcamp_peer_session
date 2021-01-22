@@ -17,20 +17,20 @@
 # print(L.__iter__())
 
 
-# def generate_power(exponent):
-#     def wrapper(f):
-#         def inner(*args):
-#             result = f(*args)
-#             print(">>>>>", result)
-#             return exponent ** result
-#         return inner
-#     return wrapper
+def generate_power(exponent):
+    def wrapper(f):
+        def inner(*args):
+            result = f(*args)
+            print(">>>>>", result)
+            return exponent ** result
+        return inner
+    return wrapper
 
-# @generate_power(3)
-# def raise_two(n):
-#     return n**2
+@generate_power(3)
+def raise_two(n):
+    return n**2
 
-# print(raise_two(5))
+print(raise_two(5))
 # raise_two(2)
 
 
