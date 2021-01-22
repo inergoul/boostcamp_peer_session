@@ -1,7 +1,7 @@
 from collections import deque
 
 def solution(numbers, target):
-
+    # time : O(2^N) 완전탐색
     num_que = deque(numbers)
     waynum = dict()
     waynum[0] = 1
@@ -19,6 +19,5 @@ def solution(numbers, target):
             else:
                 temp_dict[key - num] += waynum[key]
         waynum = temp_dict
-    print(waynum)
 
-    return
+    return waynum[target]

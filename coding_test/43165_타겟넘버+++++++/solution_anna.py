@@ -7,3 +7,6 @@ def dfs(numbers, target, cur, idx):
 
 def solution(numbers, target):
     return dfs(numbers, target, 0, 0)
+
+
+print(solution([1,2,3], 0))
