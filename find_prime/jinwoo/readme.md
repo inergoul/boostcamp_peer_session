@@ -134,14 +134,14 @@ prime_list = Manager().list()
 
 > single thread
 
-![](C:\Users\jinwo\Desktop\single thread.png)
+![](https://user-images.githubusercontent.com/43771580/111174147-8bd89300-85ea-11eb-89ed-5008f8a4bbeb.png)
 
 > multi thread
 
-![](C:\Users\jinwo\Desktop\multi-thread.png)
+![](https://user-images.githubusercontent.com/43771580/111174408-bf1b2200-85ea-11eb-9d8f-a031d80ed54a.png)
 
 > multi process
 
-![](C:\Users\jinwo\Desktop\multi-process.png)
+![](https://user-images.githubusercontent.com/43771580/111174382-baef0480-85ea-11eb-9633-8bf18f8e44c8.png)
 
 확실히 multi process가 CPU 사용량이 압도적임을 확인할 수 있다.
