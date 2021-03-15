@@ -20,7 +20,7 @@
 
 > computing power
 
-![](C:\Users\jinwo\Desktop\실험환경.png)
+![](https://user-images.githubusercontent.com/43771580/111176198-76646880-85ec-11eb-8463-107f3ce1d2f6.png)
 
 thread와 process의 개수는 core 개수인 4개로 정하였으며
 
